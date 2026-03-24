@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Forgot Password</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="auth-bg">
+
+<div class="container vh-100 d-flex justify-content-center align-items-center">
+
+<div class="card auth-card p-4">
+
+<h3 class="text-center mb-3">Forgot Password</h3>
+
+<input type="email" id="email" class="form-control mb-3" placeholder="Enter your email">
+
+<button class="btn btn-warning w-100" onclick="resetPassword()">Send Reset Link</button>
+
+<div class="text-center mt-3">
+<a href="login.html">Back to Login</a>
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+function resetPassword() {
+
+let email = document.getElementById("email").value;
+
+if(email === ""){
+alert("Please enter your email");
+}
+else{
+alert("Reset link sent to your email!");
+window.location.href = "login.html";
+}
+
+}
+
+</script>
+
+</body>
+</html>

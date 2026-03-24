@@ -1,0 +1,54 @@
+body{
+font-family:'Poppins',sans-serif;
+
+}
+
+.auth-bg{
+background: linear-gradient(135deg,#4facfe,#00f2fe);
+min-height:100vh;
+}
+
+.auth-card{
+width:350px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+button{
+transition:0.3s;
+color: red;
+}
+
+button:hover{
+transform:scale(1.05);
+}
+
+a{
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+.card{
+transition:0.3s;
+background-color: #1e1e1e;
+color: white;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+.dashboard-card{
+transition:0.3s;
+}
+
+.dashboard-card:hover{
+transform:translateY(-8px);
+box-shadow:0 12px 25px rgba(0,0,0,0.2);
+}
+
+body{
+font-family:'Poppins',sans-serif;
+}
