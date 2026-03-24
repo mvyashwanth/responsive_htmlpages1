@@ -48,15 +48,14 @@ The application is tested for the following screen sizes:
 
 ## Folder Structure
 project-folder
-│
-├── index.html
-├── login.html
-├── register.html
-├── forgot-password.html
-├── reset-password.html
-├── styles.css
-├── README.md
-└── screenshots/
+screenshot
+README.md
+dashboard.html
+forgot.html
+login.html
+register.html
+reset-password.html
+style.css
  
 ---
 
