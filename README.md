@@ -67,7 +67,7 @@ Screenshots of all pages and responsive layouts are included in the **screenshot
 ## How to Run the Project
 1. Download or clone the repository.
 2. Open the project folder.
-3. Open **index.html** in any web browser.
+3. Open **this web pages** in any web browser.
 
 ---
 
